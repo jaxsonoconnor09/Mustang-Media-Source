@@ -1,0 +1,45 @@
+.input-panel {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--panel);
+    border: 1px solid var(--dark-border);
+    padding: 20px;
+    border-radius: 10px;
+}
+.input-panel > h3 {
+    margin: 0;
+    /* line-height: 25px;   */
+    margin-bottom: 5px;
+}
+#admin-pass-input {
+    border: 1px solid var(--light-border);
+    height: 25px;
+    border-radius: 5px;
+    margin: 0;
+    color: var(--dark-text);
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+#admin-pass-input:focus {
+    outline: none;
+    border: 1px solid var(--dark-border);
+}
+#admin-pass-submit {
+    transition: .2s ease;
+    background: var(--accent);
+    color: var(--panel);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 25px;
+    font-family: "Gotham Medium";
+    margin-left: 5px;
+    cursor: pointer;
+}
+#admin-pass-submit:hover {
+    transition: .2s ease;
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+}

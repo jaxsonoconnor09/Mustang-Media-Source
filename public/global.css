@@ -31,8 +31,8 @@
     --panel: #FFFFFF;
     --accent: #004022;
     --dark-text: #252525;
-    --light-text: #757575;
-    --light-border: #E9EAEB;
+    --light-text: #a1a1a1;
+    --light-border: #dbdbdb;
     --dark-border: #bfbfbf;
 }
 body {
@@ -52,7 +52,7 @@ html {
     left: 50%;
     transform: translateX(-50%);
     font-family: "Gotham";
-    padding: 100px 0;
+    padding-bottom: 50px;
 }
 .flex-vert-center {
     display: flex;
@@ -62,7 +62,7 @@ html {
 .highlight {
     background: var(--panel);
     border: 1px solid var(--dark-border);
-    padding: 4px 6px;
+    padding: 1px 4px;
     border-radius: 4px;
 }
 .paragraph-content > h1 {
@@ -71,6 +71,7 @@ html {
     color: var(--dark-text);
     margin-bottom: 50px;
     text-align: center;
+    margin: 100px 0;
 }
 .paragraph-content > h2 {
     font-family: "Gotham Bold";

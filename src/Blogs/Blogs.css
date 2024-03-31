@@ -15,3 +15,18 @@
   font-family: "Gotham Light";
   line-height: 10px;
 }
+.blog {
+  display: flex;
+  align-items: center;
+  padding: 0px 4px;
+}
+.blog-thumbnail {
+  aspect-ratio: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95px; 
+  border-radius: 4px;
+}
+.text {
+  margin-left: 20px;
+}

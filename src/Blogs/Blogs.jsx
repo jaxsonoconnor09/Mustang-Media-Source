@@ -1,4 +1,4 @@
-import "../public/global.css";
+import "../../public/global.css";
 import "./Blogs.css";
 
 function Blogs() {
@@ -20,8 +20,10 @@ function Blogs() {
         : blogs.map((blog) => (
           <div className="blog">
             <div className="blog-thumbnail" style={{backgroundImage: `url(${blog.thumbnail})`}}></div>
-            <h2>{blog.title}</h2>
-            <p>{blog.desc}</p>
+            <div className="text">
+              <h2>{blog.title}</h2>
+              <p>{blog.desc}</p>
+            </div>
           </div>
         ))}
     </div>

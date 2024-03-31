@@ -1,4 +1,4 @@
-import "../public/global.css"
+import "../../public/global.css"
 
 function Home() {
     return (
