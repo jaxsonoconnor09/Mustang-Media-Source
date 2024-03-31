@@ -1,0 +1,109 @@
+#nav {
+    background: var(--panel);
+    height: 80px;
+    border-bottom: 1px solid var(--light-border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 100;
+}
+#nav-content {
+    display: flex;
+    align-items: center;
+    width: 75vw;
+}
+#logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+#logo {
+    height: 140px;
+    aspect-ratio: 1;
+    transform: rotate(8.2deg);
+}
+#nav-buttons {
+    gap: 10px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+#nav-buttons > .link {
+    transition: .2s ease;
+    cursor: pointer;
+    transition: .2s ease;
+    height: 40%;
+    /* padding: 0px 10px; */
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+}
+#nav-buttons > .link:not(#contact):hover {
+    transition: .2s ease;
+    background: var(--light-border);
+    border: 1px solid var(--dark-border);
+}
+.normal-nav-button {
+    aspect-ratio: 1;
+}
+.icon {
+    scale: 1.1;
+}
+#contact {
+    font-family: "Gotham Medium";
+    font-size: 16px;
+    padding: 0px 12px;
+    color: var(--panel);
+    background: var(--accent);
+}
+#contact:hover {
+    color: var(--accent);
+    outline: 1px solid var(--accent);
+    background: transparent;
+}
+.card > .icon {
+    margin-right: 10px;
+}
+.card {
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    background: var(--panel);
+    border: 1px solid var(--dark-border);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    padding: 0px 20px;
+}
+.body-content {
+    width: 80%;
+    /* border: 1px solid red; */
+}
+.read-p {
+    line-height: 30px;
+}
+.link {
+    color: var(--dark-text);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contact > .link {
+    color: white;
+}
+#contact > .link:hover {
+    color: var(--accent);
+}

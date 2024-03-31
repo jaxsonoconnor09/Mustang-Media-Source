@@ -1,0 +1,17 @@
+.blog {
+  background: var(--panel);
+  border: 1px solid var(--dark-border);
+  border-radius: 8px;
+  padding: 0px 15px;
+}
+.blog > h2 {
+  color: var(--dark-text);
+  font-family: "Gotham Bold";
+  font-size: 20px;
+  line-height: 20px;
+}
+.blog > p {
+  color: var(--light-text);
+  font-family: "Gotham Light";
+  line-height: 10px;
+}
